@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/serif.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Title -->
+        <section>
+          <h2>Seminarios del Grupo de Multifísica Computacional</h2>
+          <h4>Propósitos y Beneficios</h4>
+          <br /><br />
+          <p>Guillermo Ibarra | 2024.10.09</p>
+        </section>
+
+        <!-- Slide 1-->
+        <section>
+          <h3 style="margin-bottom: 50px; justify-content: left">
+            Objetivos de los Seminarios
+          </h3>
+          <br />
+          <ul>
+            <li class="fragment fade-in-then-semi-out">
+              Compartir Conocimientos
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              Retroalimentación y Colaboración
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              Fortalecimiento del Equipo
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              Resolución de Problemas
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              Exposición a Diferentes Métodos
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              Refinamiento de Ideas y Conceptos
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              Preparación para Conferencias y Publicaciones
+            </li>
+          </ul>
+        </section>
+
+        <!-- Slide 2-->
+        <section>
+          <h3 style="margin-bottom: 50px; justify-content: left">
+            Formato del Seminario
+          </h3>
+          <ul>
+            <li class="fragment fade-in-then-semi-out">Jueves, 10:00h</li>
+            <li class="fragment fade-in-then-semi-out">2 ponientes</li>
+            <li class="fragment fade-in-then-semi-out">
+              Presentación ~ 20 minutos
+            </li>
+            <li class="fragment fade-in-then-semi-out">Q/A + discusión ~ ∞</li>
+            <li class="fragment fade-in">
+              Temas a presentar:
+              <ul>
+                <li class="fragment fade-in-then-semi-out">
+                  Actualización del trabajo de posgrado.
+                </li>
+                <li class="fragment fade-in-then-semi-out">
+                  Presentación de herramientas y técnicas útiles para el grupo.
+                </li>
+                <li class="fragment fade-in-then-semi-out">
+                  Compartir ideas para investigaciones futuras y servicios.
+                </li>
+                <li class="fragment fade-in-then-semi-out">
+                  Revisiones de artículos o estudios de caso.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Slide 3-->
+        <section>
+          <h3 style="margin-bottom: 50px; justify-content: left">
+            Otros Detalles
+          </h3>
+          <br />
+          <ul>
+            <li class="fragment fade-in-then-semi-out">
+              Compromisos de los Participantes
+            </li>
+            <li class="fragment fade-in-then-semi-out">Ponientes "externos"</li>
+            <li class="fragment fade-in-then-semi-out">
+              17-octubre: Blanca + Mauricio
+            </li>
+            <li class="fragment fade-in-then-semi-out">
+              24-octubre: Edith + Jesús
+            </li>
+            <li class="fragment fade-in-then-semi-out">31-octubre: Sam + ?</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+        pdfSeparateFragments: false,
+        pdfMaxPagesPerSlide: 1,
+        pdf: {
+          width: 210, // A4 width in mm (default is 210)
+          height: 297, // A4 height in mm (default is 297)
+        },
+      });
+    </script>
+  </body>
+</html>
